@@ -1,0 +1,32 @@
+/**
+ * Uso de funciones combinando
+ * variables llenadas desde 'cin'
+**/
+#include <iostream>
+
+using namespace std;
+
+int llamada(int x, int y){
+	return (x+y);
+}
+
+int main(){
+	cout << "Vamos a llamar a la funcion" << endl;
+	int z = 0, x = 0, y = 0;
+
+	cout << "Ingrese el primer dato" << endl;
+	cin >> x;
+	cout << "Ingrese el segundo dato" << endl;
+	cin >> y;
+	cout << "Realizando calculo" << endl;
+
+	z = llamada(x, y);
+	cout << "Resultado : " << z << endl;
+
+	cout << "Resultado : " << llamada(x,y) << endl;
+
+	cout << "Fin" << endl;
+
+	return 0;
+
+}

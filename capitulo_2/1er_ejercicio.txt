@@ -1,0 +1,14 @@
+/**
+ *
+ *	Trozo de codigo simple que muestra el mensaje de Hola Nena!
+ *
+**/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	cout << "Hola Nena! \n";
+	return 0;
+}

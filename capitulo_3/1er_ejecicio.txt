@@ -1,0 +1,26 @@
+/**
+ * Iniciacion con funciones, veremos que la funcion 'llamada'
+ * es asignada a una variable y en la otra es directamente 
+ * plasmada en consola, en resumen las funciones pueden ser asignadas
+ * a una variable o directamente pueden utilizarse
+**/
+#include <iostream>
+
+using namespace std;
+
+int llamada(int x, int y){
+	cout << "Estamos en la funcion, 'llamada'" << endl;
+	return (x+y);
+}
+
+int main(){
+	cout << "Vamos a llamar a la funcion... " << endl;
+
+	int z = llamada(5,7);
+	cout << "Resultado: " << z << endl;
+
+	cout << "Resultado: " << llamada(6,7) <<endl;
+	cout << "Fin" << endl;
+
+	return 0;
+}
